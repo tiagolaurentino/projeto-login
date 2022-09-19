@@ -6,3 +6,71 @@ paleta de cores
 verde: #49a09d
 lilas: #5f2c82
 */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+}
+ section {
+    width: 90%;
+    height: 500px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+ }
+ #formulario {
+    width: 25%;
+
+ }
+
+.imagem {
+    width: 25%;
+    background-color: blue;
+}
+
+
+.imagem > img {
+    width: 100%;
+    background-color: blueviolet;
+}
+span {
+    background-color: blueviolet;
+    padding: 3px;
+    position: relative;
+   left: 5px;
+   border-radius: 5px 0px 0px 5px;
+}
+
+span > img {
+    width: 14px;
+   
+}
+
+.inputs {
+    border-radius: 0px 5px 5px 0px;
+    margin: 5px 0;
+    padding: 2px;
+    width: 90%;
+}
+
+.buton {
+   padding:  3px;
+    width: 98%;
+    margin: 2px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
